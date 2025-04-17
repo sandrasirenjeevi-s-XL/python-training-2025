@@ -1,19 +1,18 @@
-```markdown
 # 🐍 Python Training Environment Setup
 
 ## ✅ Prerequisites
-- Oracle VirtualBox running Ubuntu VM
-- Host machine with internet access
-- VM network mode: **Bridged Adapter** or **Port Forwarding** (for SSH access)
+- Oracle VirtualBox running Ubuntu VM  
+- Host machine with internet access  
+- VM network mode: **Bridged Adapter** or **Port Forwarding** (for SSH access)  
 
 ---
 
 ## 1. 💻 Install VS Code on Local Machine
-- Download: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-- Install Extensions:
-  - `Remote - SSH` (Microsoft)
-  - `Python` (Microsoft)
-  - *(Optional)*: `Pylance`, `Jupyter`, `Black Formatter`
+- Download: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)  
+- Install Extensions:  
+  - `Remote - SSH` (Microsoft)  
+  - `Python` (Microsoft)  
+  - *(Optional)*: `Pylance`, `Jupyter`, `Black Formatter`  
 
 ---
 
@@ -36,17 +35,17 @@ hostname -I
 
 ## 3. 🛰️ SSH into VM from VS Code
 1. Open VS Code  
-2. `F1` → `Remote-SSH: Connect to Host...`  
-3. Configure `~/.ssh/config`:
+2. Press `F1` → `Remote-SSH: Connect to Host...`  
+3. Add an entry in `~/.ssh/config`:
    ```bash
    Host my-vm
        HostName <VM_IP_ADDRESS>
        User <your-username>
        IdentityFile ~/.ssh/id_rsa
    ```
-4. Connect to `my-vm`
+4. Connect to `my-vm`  
 
-Generate key pair (if needed):
+Generate SSH key pair (if needed):
 ```bash
 ssh-keygen -t rsa
 ```
@@ -68,7 +67,7 @@ cat ~/.ssh/id_ed25519.pub
 
 Add the public key to GitHub:  
 - Go to **GitHub → Settings → SSH and GPG keys**  
-- Paste the key
+- Paste the contents of `id_ed25519.pub`
 
 ---
 
@@ -80,22 +79,22 @@ sudo apt install python3 python3-pip -y
 ---
 
 ## 6. 🧩 Enable Python in VS Code (Remote)
-While connected via VS Code:
-- VS Code may prompt: **"Python interpreter required"** → Click Install
-- Or:
-  - `F1` → `Python: Select Interpreter` → Choose `python3`
+While connected to the VM via VS Code:
+- VS Code may prompt: **“Python interpreter required”** → Click Install  
+- Or manually:  
+  - Press `F1` → `Python: Select Interpreter` → Choose `python3`
 
-Optional tools:
+Optional linters/formatters:
 ```bash
 pip3 install pylint flake8 black autopep8
 ```
 
 ---
 
-## 7. 🔄 Fork and Clone GitHub Repository (on VM)
-1. On GitHub:
-   - Fork the target repository
-2. On VM:
+## 7. 🔄 Fork and Clone a GitHub Repository (on VM)
+1. On GitHub:  
+   - Navigate to the repo and click `Fork`  
+2. On VM terminal:
 ```bash
 git clone git@github.com:<your-username>/<repo>.git
 cd <repo>
@@ -110,6 +109,6 @@ git checkout -b <feature-branch-name>
 
 ---
 
-## 🎯 You’re Ready to Develop
-VS Code + Remote SSH + GitHub + Python. You're good to go.
-```
+## 🎯 You're Ready to Develop
+VS Code + Remote SSH + GitHub + Python. You're all set.
+
