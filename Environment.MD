@@ -1,7 +1,3 @@
-Here’s a clean and professional reformat of your `readme.MD` file:
-
----
-
 ```markdown
 # 🐍 Python Training Environment Setup
 
@@ -39,8 +35,8 @@ hostname -I
 ---
 
 ## 3. 🛰️ SSH into VM from VS Code
-1. Open VS Code
-2. `F1` → `Remote-SSH: Connect to Host...`
+1. Open VS Code  
+2. `F1` → `Remote-SSH: Connect to Host...`  
 3. Configure `~/.ssh/config`:
    ```bash
    Host my-vm
@@ -70,8 +66,8 @@ ssh-keygen -t ed25519 -C "you@example.com"
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Add the public key to GitHub:
-- Go to **GitHub → Settings → SSH and GPG keys**
+Add the public key to GitHub:  
+- Go to **GitHub → Settings → SSH and GPG keys**  
 - Paste the key
 
 ---
@@ -117,5 +113,3 @@ git checkout -b <feature-branch-name>
 ## 🎯 You’re Ready to Develop
 VS Code + Remote SSH + GitHub + Python. You're good to go.
 ```
-
-Let me know if you want this converted to PDF or HTML.
