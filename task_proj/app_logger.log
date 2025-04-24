@@ -1,0 +1,20 @@
+2025-04-22 09:36:04,098 - DEBUG - DEBUG : entering function display_task()
+2025-04-22 09:36:04,099 - WARNING - WARN : no task found here
+2025-04-22 09:36:04,100 - DEBUG - DEBUG : entering function add_task(%)
+2025-04-22 09:36:04,101 - INFO - INFO : task added 'develop'
+2025-04-22 09:36:04,101 - DEBUG - DEBUG : entering function add_task(%)
+2025-04-22 09:36:04,102 - INFO - INFO : task added 'write unit test'
+2025-04-22 09:36:04,102 - DEBUG - DEBUG : entering function add_task(%)
+2025-04-22 09:36:04,103 - INFO - INFO : task added 'deploy'
+2025-04-22 09:36:04,104 - DEBUG - DEBUG : entering function display_task()
+2025-04-22 09:36:04,106 - INFO - INFO : Displaying task...
+2025-04-22 09:36:04,107 - DEBUG - DEBUG : attemptting to remove task at 0
+2025-04-22 09:36:04,107 - INFO - INFO : task at index 0 had been removed
+2025-04-22 09:36:04,108 - DEBUG - DEBUG : entering function display_task()
+2025-04-22 09:36:04,108 - INFO - INFO : Displaying task...
+2025-04-22 09:36:04,109 - DEBUG - DEBUG : attemptting to remove task at 0
+2025-04-22 09:36:04,109 - INFO - INFO : task at index 0 had been removed
+2025-04-22 09:36:04,110 - DEBUG - DEBUG : entering function display_task()
+2025-04-22 09:36:04,110 - INFO - INFO : Displaying task...
+2025-04-22 09:36:04,111 - DEBUG - DEBUG : attemptting to remove task at 0
+2025-04-22 09:36:04,111 - INFO - INFO : task at index 0 had been removed
