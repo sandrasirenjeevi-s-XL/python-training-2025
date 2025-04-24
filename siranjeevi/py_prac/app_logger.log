@@ -1,0 +1,54 @@
+2025-04-22 13:18:12,326 - WARNING - WARNING: No task found here
+2025-04-22 13:18:12,326 - INFO - INFO: task added:'Develop'
+2025-04-22 13:18:12,326 - INFO - INFO: task added:'Write Unit Test'
+2025-04-22 13:18:12,326 - INFO - INFO: task added:'Deploy'
+2025-04-22 13:18:12,326 - INFO - INFO : Displaying tasks
+2025-04-22 13:18:12,326 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:18:12,327 - INFO - INFO : Displaying tasks
+2025-04-22 13:18:12,327 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:18:12,327 - INFO - INFO : Displaying tasks
+2025-04-22 13:18:12,327 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:18:12,327 - WARNING - WARNING: No task found here
+2025-04-22 13:19:23,601 - WARNING - WARNING: No task found here
+2025-04-22 13:19:23,602 - INFO - INFO: task added:'Develop'
+2025-04-22 13:19:23,602 - INFO - INFO: task added:'Write Unit Test'
+2025-04-22 13:19:23,602 - INFO - INFO: task added:'Deploy'
+2025-04-22 13:19:23,602 - INFO - INFO : Displaying tasks
+2025-04-22 13:19:23,602 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:19:23,602 - INFO - INFO : Displaying tasks
+2025-04-22 13:19:23,602 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:19:23,602 - INFO - INFO : Displaying tasks
+2025-04-22 13:19:23,602 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:19:23,602 - WARNING - WARNING: No task found here
+2025-04-22 13:20:03,631 - WARNING - WARNING: No task found here
+2025-04-22 13:20:03,631 - INFO - INFO: task added:'Develop'
+2025-04-22 13:20:03,631 - INFO - INFO: task added:'Write Unit Test'
+2025-04-22 13:20:03,631 - INFO - INFO: task added:'Deploy'
+2025-04-22 13:20:03,631 - INFO - INFO : Displaying tasks
+2025-04-22 13:20:03,631 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:20:03,631 - INFO - INFO : Displaying tasks
+2025-04-22 13:20:03,631 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:20:03,632 - INFO - INFO : Displaying tasks
+2025-04-22 13:20:03,632 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:20:03,632 - WARNING - WARNING: No task found here
+2025-04-22 13:20:03,632 - ERROR - ERROR : Failed to remove task at index :0- pop from empty list
+2025-04-22 13:20:45,576 - DEBUG - DEBUG: Entering function display_tasks()
+2025-04-22 13:20:45,576 - WARNING - WARNING: No task found here
+2025-04-22 13:20:45,576 - DEBUG - DEBUG : Entering function add_task()
+2025-04-22 13:20:45,576 - INFO - INFO: task added:'Develop'
+2025-04-22 13:20:45,577 - DEBUG - DEBUG : Entering function add_task()
+2025-04-22 13:20:45,577 - INFO - INFO: task added:'Write Unit Test'
+2025-04-22 13:20:45,577 - DEBUG - DEBUG : Entering function add_task()
+2025-04-22 13:20:45,577 - INFO - INFO: task added:'Deploy'
+2025-04-22 13:20:45,577 - DEBUG - DEBUG: Entering function display_tasks()
+2025-04-22 13:20:45,577 - INFO - INFO : Displaying tasks
+2025-04-22 13:20:45,577 - DEBUG - DEBUG: Attempting to remove task at 0
+2025-04-22 13:20:45,577 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:20:45,577 - DEBUG - DEBUG: Entering function display_tasks()
+2025-04-22 13:20:45,577 - INFO - INFO : Displaying tasks
+2025-04-22 13:20:45,577 - DEBUG - DEBUG: Attempting to remove task at 0
+2025-04-22 13:20:45,577 - INFO - INFO: Task at 0 has been removed
+2025-04-22 13:20:45,577 - DEBUG - DEBUG: Entering function display_tasks()
+2025-04-22 13:20:45,577 - INFO - INFO : Displaying tasks
+2025-04-22 13:20:45,577 - DEBUG - DEBUG: Attempting to remove task at 0
+2025-04-22 13:20:45,577 - INFO - INFO: Task at 0 has been removed
